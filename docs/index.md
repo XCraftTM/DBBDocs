@@ -3,7 +3,6 @@
 <meta content="https://xcrafttm.github.io/DBBBlocks" property="og:url" />
 <meta content="https://xcrafttm.github.io/DBBBlocks/assets/favicon.png" property="og:image" />
 <meta content="#292e4a" data-react-helmet="true" name="theme-color" />
-<script src="https://www.steamwidgets.com/api/resource/query?type=js&module=app&version=v1"></script>
 
 # Home
 
@@ -17,5 +16,3 @@ Discord Bot Builder is a piece of software with which you can develop your own D
 We offer support to the community and the opportunity to meet new people in our [Discord](https://discord.gg/PAzxTDw). Join it today!
 
 [Let's Start!](gettingstarted.md){ .md-button .md-button--primary }
-
-<steam-app appid="1119570" onlinecount=":count Players" author=:developer></steam-app>
