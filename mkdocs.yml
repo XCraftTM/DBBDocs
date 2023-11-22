@@ -1,0 +1,193 @@
+# Project information
+site_name: DBB Documentation
+site_url: https://dbb.software/
+site_author: XCraftTM
+site_description: >-
+  This Website helpes you to use Discord Bot Builder,
+  also gives you examples and instructions on certain things!
+repo_url: https://github.com/XCraftTM/DBBBlocks
+repo_name: XCraftTM/DBBBlocks
+edit_uri: edit/docs/docs
+
+# Copyright
+copyright: >- 
+  Copyright &copy; 2023 XCraftTM | Powered by <a href="https://aitch-systems.de/" target="_blank" style="color:#2869C9" >aitch-systems.de</a> | 
+  <a style="color:#FFB016" href="#__consent">Change cookie settings</a>
+
+# Configuration
+theme:
+  name: material
+  custom_dir: overrides
+  features:
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    - navigation.expand
+    - navigation.footer
+    - navigation.indexes
+    # - navigation.instant
+    # - navigation.prune
+    - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+  palette:
+    - scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/favicon.png
+
+# Plugins
+plugins:
+  - blog:
+      enabled: true
+      blog_dir: blog
+      post_dir: blog/posts
+      post_date_format: full
+      archive: false
+      categories: false
+      authors: true
+      authors_file: blog/.authors.yml
+      draft: false
+  - mkdocs-video
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - glightbox:
+       touchNavigation: true
+       loop: false
+       effect: zoom
+       slide_effect: slide
+       width: 100%
+       height: auto
+       zoomable: true
+       draggable: true
+       auto_caption: false
+       caption_position: bottom
+
+# Customization
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
+      - reject
+  annotate:
+    json: [.s2]
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/PAzxTDw
+  analytics:
+    provider: google
+    property: G-P5GD4N2JEC
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback!
+
+# Extensions
+markdown_extensions:
+  - pymdownx.critic
+  - tables
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji 
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Page tree
+nav:
+  - Home: index.md
+  - Main:
+    - Getting Started: gettingstarted.md
+    - Installing Mods: mods.md
+    - Adding Workspaces: workspaces.md
+    - Troubleshooting: troubleshooting.md
+  - Basics:
+    - Basic Actions: basicactions.md
+  - Tutorials: 
+    - Slash Commands: slash-commands.md
+    - Context Menu: context.md
+    - Modals: modals.md
+    - Buttons: buttons.md
+    - Embeds: embeds.md
+    - Select Menu: select.md
+    - Music Blocks: musicplayer.md
+  - Community: 
+    - Videos: videos.md
+  - Extra:
+    - Creating Blocks: create-blocks.md
+  - Blog:
+    - blog/index.md
+    
