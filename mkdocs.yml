@@ -90,6 +90,8 @@ plugins:
 
 # Customization
 extra:
+  version:
+    provider: mike
   consent:
     title: Cookie consent
     description: >- 
@@ -175,7 +177,8 @@ nav:
     - Adding Workspaces: workspaces.md
     - Troubleshooting: troubleshooting.md
   - Basics:
-    - Basic Actions: basicactions.md
+    - Basic Actions: basic-actions.md
+    - Basic Rules: basic-rules.md
   - Tutorials: 
     - Slash Commands: slash-commands.md
     - Context Menu: context.md
