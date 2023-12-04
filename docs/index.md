@@ -16,3 +16,5 @@ Discord Bot Builder is a piece of software with which you can develop your own D
 We offer support to the community and the opportunity to meet new people in our [Discord](https://discord.gg/PAzxTDw). Join it today!
 
 [Let's Start!](gettingstarted.md){ .md-button .md-button--primary }
+
+<iframe src="https://store.steampowered.com/widget/1119570/?utm_source=homepage&utm_campaign=mycampaign"><a href="https://store.steampowered.com/app/500/?utm_source=homepage&utm_campaign=mycampaign"></iframe>
