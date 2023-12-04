@@ -17,4 +17,4 @@ We offer support to the community and the opportunity to meet new people in our 
 
 [Let's Start!](gettingstarted.md){ .md-button .md-button--primary }
 
-<iframe width="100%" height="190" frameborder="0" allowfullscreen="" src="https://store.steampowered.com/widget/1119570/?utm_source=homepage&utm_campaign=mycampaign">
+<iframe width="100%" height="190" frameborder="0" allowfullscreen="" background-color="transparent" src="https://store.steampowered.com/widget/1119570/?utm_source=homepage&utm_campaign=mycampaign">
