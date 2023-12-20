@@ -13,12 +13,14 @@ You need to Download the blocks from the `currently` official DBB Block Storage 
 Just Drag the blocks inside the `!allBlocks.zip` file into the Blocks Folder of your Project. Make sure to replace the old files/blocks!
 
 !!! danger "IMPORTANT"
-    **DO NOT DELETE THE OLD BLOCKS**
+    **DO NOT DELETE THE OLD BLOCKS**  
+
+    Watch out not to Click the `Update Blocks Folder` in the `Project` Tab, cause that will reset your Blocks to OoTB(Out-of-The-Box) State.
+
+??? info "Video Tutorial"
+    ![type:video](./assets/extracting.mp4)
 
 ![Extracting](https://i.imgur.com/fGVDO9N.gif)
 
 ## Apply
 To Apply the installed Blocks, you either restart DBB or at the Top of DBB in the Toolbar Click `Developer` and then click `Update DBB Block Cache`.
-
-!!! warning "Warning"
-    Watch out not to Click the `Update Blocks Folder` in the `Project` Tab. Cause that will reset your Blocks to Vanilla.
