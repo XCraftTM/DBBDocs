@@ -18,7 +18,7 @@ Just Drag the blocks inside the `!allBlocks.zip` file into the Blocks Folder of 
     Watch out not to Click the `Update Blocks Folder` in the `Project` Tab, cause that will reset your Blocks to OoTB(Out-of-The-Box) State.
 
 ??? info "Video Tutorial"
-    ![type:video](./assets/extracting.mp4)
+    ![type:video](https://youtu.be/p9aYNYLPLj0)
 
 ![Extracting](https://i.imgur.com/fGVDO9N.gif)
 
