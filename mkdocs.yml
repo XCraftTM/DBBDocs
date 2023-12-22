@@ -193,6 +193,7 @@ nav:
     - Videos: videos.md
   - Extra:
     - Creating Blocks: create-blocks.md
+    - Slash Command Builder: slash-command-builder.md
   - Blog:
     - blog/index.md
     
