@@ -1,3 +1,5 @@
+icon: material/slash-forward-box
+
 ---
 comments: true
 ---

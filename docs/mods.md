@@ -1,3 +1,5 @@
+icon: material/download-box
+
 # Installing Mods
 
 Installing Mods is pretty Straight forward... Just Download a Zip and Extract it into your Bot Folder.

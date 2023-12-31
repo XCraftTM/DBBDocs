@@ -1,3 +1,5 @@
+icon: material/plus-box-multiple
+
 # Adding Workspaces
 This Part will Explain how to install/add Workspaces from our [Discord Server](https://discord.gg/PAzxTDw){:target="_blank"}.
 

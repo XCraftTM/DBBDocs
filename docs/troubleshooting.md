@@ -1,3 +1,5 @@
+icon: material/help-box-outline
+
 # Troubleshooting
 Issues are normal in DBB, since mostly everything is made by the community, but sometimes it's just the users fault. Try following these steps if you have issues!
 

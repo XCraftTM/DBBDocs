@@ -1,3 +1,5 @@
+icon: material/message-text
+
 # Embeds
 This Section will Explain how to Create a Message embed, and also send that Embed.
 

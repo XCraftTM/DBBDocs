@@ -1,3 +1,5 @@
+icon: material/form-select
+
 # Context Menu
 This Section will explain how to create and use Context Menus!
 

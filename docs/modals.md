@@ -1,3 +1,5 @@
+icon: material/form-textbox
+
 # Modals
 This Section will explain how setup a Modal, and show that to the User and also fetch what the User Inputed into the Modal.
 
