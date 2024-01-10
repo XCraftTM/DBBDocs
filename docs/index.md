@@ -6,15 +6,34 @@ icon: material/home
 <meta content="https://github.com/XCraftTM/DBBDocs/blob/main/docs/assets/favicon.png" property="og:image" />
 <meta content="#292e4a" data-react-helmet="true" name="theme-color" />
 
-# Home
+# :material-home: Home
 
-This is the official documentation of Discord Bot Builder, created with the help of the community.
+This is the official documentation of <abbr title='Also Referenced as "DBB"'>Discord Bot Builder</abbr>[^1], created with the help of the community.
 ***
 
-## What is Discord Bot Builder?
-> Discord Bot Builder is a piece of software that allows you to develop your own Discord bot using a GUI. You can buy it on [Steam](https://store.steampowered.com/app/1119570/Discord_Bot_Builder/ "Direct link to the store page."). 
+???+ qa "What is Discord Bot Builder?"
+    :   Discord Bot Builder is a piece of software that allows you to develop your own Discord bot using a GUI[^2], available for purchase on [Steam](https://store.steampowered.com/app/1119570/Discord_Bot_Builder/ "Direct link to the store page."){ target="_blank"}. 
 
-## What is the DBB Discord?
-> We offer support to the community and the opportunity to meet new people in our [Discord](https://discord.gg/PAzxTDw "Join the Discord!"). Join it today!
+???+ qa "What is the DBB Discord Server?"
+    : The DBB [Discord Server](https://discord.gg/PAzxTDw "Join the Discord!") is the official place for 
+    <abbr title='Support is done voluntarily, a member will assist you when they can'>support</abbr>[^3] as well as sharing community made workspaces[^4] and blocks[^5]. 
+    
+    : If you need any help, please join and make a forum in the designated 'support' channel.
+    
+<div style="text-align: center;">
+  <p><a class="md-button md-button--primary pulsingButton" style="text-align: center;" href="gettingstarted/">Let's Start!</a></p>
+</div>
 
-[Let's Start!](gettingstarted.md){ .md-button .md-button--primary }
+<!-- *[Discord Bot Builder]: Also Referenced as "DBB" -->
+[^1]: Also Referenced as "DBB"
+
+*[GUI]: Graphical User Interface
+[^2]: Graphical User Interface
+
+[^3]: Support is done voluntarily, a member will assist you when they can
+
+*[workspaces]: Workspaces are the areas in which you build your bot's logic
+[^4]: Workspaces are the areas in which you build your bot's logic
+
+*[blocks]: Blocks are the elements that you place and connect to eachother in order to create the desired functionality
+[^5]: Blocks are the elements that you place and connect to eachother in order to create the desired functionality

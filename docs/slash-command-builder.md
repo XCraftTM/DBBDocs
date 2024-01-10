@@ -1,8 +1,9 @@
-icon: material/slash-forward-box
+icon: material/toolbox
 
-<!-- <iframe id="commandbuilder" src="http://localhost:8080" frameborder="0" height=2000 width="100%"></iframe> -->
+# :material-toolbox: Slash Command Builder
 
-[Subscribe to our newsletter](#){ .md-button .test }
+<iframe id="commandbuilder" src="https://beastlybear2017.github.io/Discord-Slash-Command-Builder/" frameborder="0" height="1500" width="1000" allow="clipboard-write"></iframe>
 
-# Slash Command Builder
-This is a Slash Command Builder that is hosted by [Sebastian on Github](https://github.com/bsati) the Link to the Builder is [here](https://bsati.github.io/dc-app-command-builder/).
+---
+
+This is a Slash Command Builder that was originally created by [Sebastian on Github](https://github.com/bsati/dc-app-command-builder), and has since been updated by BeastlyBear2017, with a link to the hosted website [here](https://beastlybear2017.github.io/Discord-Slash-Command-Builder/).

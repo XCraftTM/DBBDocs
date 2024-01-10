@@ -1,6 +1,6 @@
 icon: material/music-box
 
-# Music Blocks
+# :material-music-box: Music Blocks
 
 === "Setup"
     ## Setup
@@ -25,13 +25,13 @@ icon: material/music-box
 === "Examples"
     <h3> Play Music in Voice Channel </h3>
 
-    > Playing Music is really easy, and doesn't take a lot of Blocks... Here is a Simple Example:
-    ![PlayInVC](https://i.imgur.com/inEUci8.png)
+    :   Playing Music is really easy, and doesn't take a lot of Blocks... Here is a Simple Example:
+    :   ![PlayInVC](https://i.imgur.com/inEUci8.png)
 
     <h3> Setup Slash Command Autocomplete </h3>
 
-    > Below is an example of how to enable Auto Complete on a slash command: 
-    ![AutoCompleteSlashCommands](https://cdn.discordapp.com/attachments/1081509800464109638/1085955745671032994/image.png)
+    :   Below is an example of how to enable Auto Complete on a slash command: 
+    :   ![AutoCompleteSlashCommands](https://cdn.discordapp.com/attachments/1081509800464109638/1085955745671032994/image.png)
 
     ***
 

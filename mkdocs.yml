@@ -5,13 +5,13 @@ site_author: XCraftTM
 site_description: >-
   This Website helpes you to use Discord Bot Builder,
   also gives you examples and instructions on certain things!
-repo_url: https://github.com/Beastlybear2017/DBBDocs
-repo_name: Beastlybear2017/DBBDocs
+repo_url: https://github.com/XCraftTM/DBBDocs
+repo_name: XCraftTM/DBBDocs
 edit_uri: edit/docs/docs
 
 # Copyright
 copyright: >- 
-  Copyright &copy; 2023 XCraftTM | Powered by <a href="https://aitch-systems.de/" target="_blank" style="color:#2869C9" >aitch-systems.de</a> | 
+  Copyright &copy; 2024 XCraftTM | Powered by <a href="https://aitch-systems.de/" target="_blank" style="color:#2869C9" >aitch-systems.de</a> | 
   <a style="color:#FFB016" href="#__consent">Change cookie settings</a>
 
 # Configuration
@@ -60,8 +60,9 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   logo: assets/favicon.png
-  extra_css: 
-    - extra.css
+
+extra_css: 
+  - stylesheets/extra.css      
 
 # Plugins
 plugins:
@@ -140,6 +141,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - toc:
+      # toc_depth: "1-1"
       permalink: true
   - pymdownx.arithmatex:
       generic: true
