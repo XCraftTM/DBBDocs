@@ -16,13 +16,19 @@ Installing Mods is pretty Straight forward... Just Download a Zip and Extract it
     ## Extracting
     :   Just Drag the blocks inside the `!allBlocks.zip` file into the Blocks Folder of your Project. Make sure to replace the old files/blocks!
 
+<<<<<<< HEAD
     :   !!! danger "IMPORTANT"
             **DO NOT DELETE THE OLD BLOCKS**  
+=======
+!!! danger "IMPORTANT"
+    **REPLACING BLOCKS IS NEEDED, WHEN PROMPTED (MANUALLY DELETING IS BAD)**  
+>>>>>>> b706c074d80246cacb311e41eaca241b51eb4aa6
 
             Watch out not to Click the `Update Blocks Folder` in the `Project` Tab, cause that will reset your Blocks to OoTB(Out-of-The-Box) State.
 
 
 
+<<<<<<< HEAD
     :   ![Extracting](https://i.imgur.com/fGVDO9N.gif)
 
     ## Apply
@@ -31,3 +37,7 @@ Installing Mods is pretty Straight forward... Just Download a Zip and Extract it
 === "Video"   
     !!! video "Video Tutorial"
         ![type:video](https://www.youtube.com/embed/7QZyGmr5LVM)
+=======
+## Apply
+To Apply the installed Blocks, you either restart DBB or at the Top of DBB in the Toolbar Click `Developer` and then click `Update DBB Block Cache`.
+>>>>>>> b706c074d80246cacb311e41eaca241b51eb4aa6
