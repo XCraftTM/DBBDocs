@@ -11,8 +11,8 @@ Installing Mods is pretty Straight forward... Just Download a Zip and Extract it
 [Storage Server :fontawesome-solid-link:](https://blocks.dbb.software/Blocks/){ .md-button target="_blank"}
 
 :  !!! danger "IMPORTANT"
-**DO NOT DELETE THE OLD BLOCKS**  
-Watch out not to Click the `Update Blocks Folder` in the `Project` Tab, cause that will reset your Blocks to OoTB(Out-of-The-Box) State.
+    **DO NOT DELETE THE OLD BLOCKS**  
+    Watch out not to Click the `Update Blocks Folder` in the `Project` Tab, cause that will reset your Blocks to OoTB(Out-of-The-Box) State.
 
 ---
 
@@ -26,5 +26,5 @@ Watch out not to Click the `Update Blocks Folder` in the `Project` Tab, cause th
     :   To Apply the installed Blocks, you either restart DBB or at the Top of DBB in the Toolbar Click `Developer` and then click `Update DBB Block Cache`.    
 
 === "Video"   
-!!! video "Video Tutorial"
-![type:video](https://www.youtube.com/embed/7QZyGmr5LVM)
+    !!! video "Video Tutorial"
+        ![type:video](https://www.youtube.com/embed/7QZyGmr5LVM)
