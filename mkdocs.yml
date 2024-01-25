@@ -11,7 +11,7 @@ edit_uri: edit/docs/docs
 
 # Copyright
 copyright: >- 
-  Copyright &copy; 2023 XCraftTM | Powered by <a href="https://aitch-systems.de/" target="_blank" style="color:#2869C9" >aitch-systems.de</a> | 
+  Copyright &copy; 2024 XCraftTM | Powered by <a href="https://aitch-systems.de/" target="_blank" style="color:#2869C9" >aitch-systems.de</a> | 
   <a style="color:#FFB016" href="#__consent">Change cookie settings</a>
 
 # Configuration
@@ -60,6 +60,9 @@ theme:
     code: Roboto Mono
   favicon: assets/favicon.png
   logo: assets/favicon.png
+
+extra_css: 
+  - stylesheets/extra.css      
 
 # Plugins
 plugins:
@@ -138,6 +141,7 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - toc:
+      # toc_depth: "1-1"
       permalink: true
   - pymdownx.arithmatex:
       generic: true
@@ -166,6 +170,10 @@ markdown_extensions:
           class: mermaid
   - pymdownx.tabbed:
       alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde

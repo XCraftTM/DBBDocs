@@ -1,8 +1,6 @@
----
-comments: true
----
+icon: material/slash-forward-box
 
-# Slash Commands
+# :material-slash-forward-box: Slash Commands
 This Section will explain how to Create, Setup and Use Slash Commands.
 
 !!! warning "Requirements"
@@ -14,28 +12,21 @@ This Section will explain how to Create, Setup and Use Slash Commands.
 
 ## Create Commands
 
-First go to the [Autocode Slash Commands Builder](https://autocode.com/tools/discord/command-builder/){:target="_blank"} Website and Create a command of your Choice.  
-
-**Make sure NOT to Login on the Website, your bot will display an 24/7 ad in the Status**  
-
-In this example we will create a Kick and Timeout Command:  
-![Image](https://i.imgur.com/6mKB9Rj.png)  
-![Image](https://i.imgur.com/CIxv8c0.png)  
-The Website display you a Preview of the Command on the right!
+:   First go to the [Slash Commands Builder](/slash-command-builder/){target=_blank} and Create a command of your Choice.  
+    In this example we will create a Kick and Timeout Command:  
+    ![Image](https://i.imgur.com/LUhdZ8k.png)
+    ![Image]()
 
 ## Copy Command Code
 
-After you built your Command, you click `View Code`  
-and Copy only the Part from the first `{` to the last `}`.  
+After you built your Command, you click `View Code`
 ![CMD1](https://i.imgur.com/zYv9DvX.png)  
-![CMD2](https://i.imgur.com/pv3d0gU.png)  
 
 Import that Command into your Workspace using [Register Slash Commands Block](https://blocks.dbb.software/Blocks/register_slash_commands.js){:target="_blank"}.
 
 ## Add Command to DBB
 
 !!! danger "READ THIS!"
-    - You can Only use **One** `Register Slash Commands` Block Per **_Project_**
     - You can add multiple Commands by using `,` to split the commands
 
 ![Image](https://i.imgur.com/6PndwXh.png)
