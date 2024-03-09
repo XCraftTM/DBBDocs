@@ -17,3 +17,4 @@ jobs:
           path: .cache
       - run: pip install mkdocs-material mkdocs-glightbox mkdocs-video
       - run: mkdocs gh-deploy --force
+ 
