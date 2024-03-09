@@ -14,13 +14,12 @@ This Section will explain how to Create, Setup and Use Slash Commands.
 
 :   First go to the [Slash Commands Builder](/slash-command-builder/){target=_blank} and Create a command of your Choice.  
     In this example we will create a Kick and Timeout Command:  
-    ![Image](https://i.imgur.com/LUhdZ8k.png)
-    ![Image]()
+    ![Image](https://i.imgur.com/aIjdRWc.png)
 
 ## Copy Command Code
 
 After you built your Command, you click `View Code`
-![CMD1](https://i.imgur.com/zYv9DvX.png)  
+![CMD1](https://i.imgur.com/GBwAuTX.png)  
 
 Import that Command into your Workspace using [Register Slash Commands Block](https://blocks.dbb.software/Blocks/register_slash_commands.js){:target="_blank"}.
 
@@ -29,19 +28,19 @@ Import that Command into your Workspace using [Register Slash Commands Block](ht
 !!! danger "READ THIS!"
     - You can add multiple Commands by using `,` to split the commands
 
-![Image](https://i.imgur.com/6PndwXh.png)
+![Image](https://i.imgur.com/CdSCeMc.png)
 
 ## Handle The Command Interaction
 
 ### Kick Command
 
 First we Build the Kick Command Handler. For that we use the [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"} Block. Next we use the [Get Interaction Argument by Name](https://blocks.dbb.software/Blocks/get_interaction_argument_by_name.js){:target="_blank"} to get the Member and Reason. Next we use the `Kick Member` Block and connect everything. Optionally you can use the `Merge Texts [Advanced]` Block to add the Mention of the Mmeber to a Message, you can reply to the Interaction using `Reply to Interaction`.
-![Command1Handler](https://i.imgur.com/vgMhvHt.png)
+![Command1Handler](https://i.imgur.com/Ft4mOVm.png)
 
 ### Timeout Command
 
 Next we will build the Timeout Command Handler. For that we again use the [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"} Block. Next again use the [Get Interaction Argument by Name](https://blocks.dbb.software/Blocks/get_interaction_argument_by_name.js){:target="_blank"} Block to get the Member and the Time Number in Minutes. After that we use the `Timeout Member` Block and add the Rest of the Optional Stuff if needed.
-![Command2Handler](https://i.imgur.com/zOX5Avm.png)
+![Command2Handler](https://i.imgur.com/OjpLbvN.png)
 
 ## Testing the Finished Product
 
