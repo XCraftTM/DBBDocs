@@ -2,7 +2,7 @@ icon: material/download-box
 
 # :material-download-box: Installing Mods
 
-Installing Mods is pretty Straight forward... Just Download a Zip and Extract it into your Bot Folder.
+Installing Mods is pretty Straight forward... Press a Button in DBB, Paste a URL, Wait.. and Done!
 
 ## Downloading
 
@@ -10,20 +10,27 @@ Installing Mods is pretty Straight forward... Just Download a Zip and Extract it
     [Download All Blocks :fontawesome-solid-download:](https://blocks.dbb.software/Blocks/!allBlocks.zip){ .md-button .md-button--primary }
     [Storage Server :fontawesome-solid-link:](https://blocks.dbb.software/Blocks/){ .md-button target="_blank"}
 
-:  !!! danger "IMPORTANT"
-        **DO NOT DELETE THE OLD BLOCKS!**  
-        :   Watch out not to Click the `Update Blocks Folder` in the `Project` Tab, cause that will reset your Blocks to OoTB(Out-of-The-Box) State.    
-
 ---
 
 === "Written"
-    ## Extracting
-    :   Just Drag the blocks inside the `!allBlocks.zip` file into the Blocks Folder of your Project. Make sure to replace the old files/blocks!
+    ## Installing
+    :   As of v1 you can now download and install Modded Blocks in DBB.
 
-    :   ![Extracting](https://i.imgur.com/fGVDO9N.gif)
+    :   For that you go to the `Bot` Tab and there hover over `Import Blocks` and then click on `Download Blocks`, 
 
-    ## Apply
-    :   To Apply the installed Blocks, you either restart DBB or at the Top of DBB in the Toolbar Click `Developer` and then click `Update DBB Block Cache`.    
+    :   For Normal Blocks you can use the following URL:
+        ```
+        https://blocks.dbb.software/Blocks/!allBlocks.zip
+        ```
+
+    :   For v1-Only Blocks you can use the following URL:
+        ```
+        https://blocks.dbb.software/Blocks/v1-Blocks/!allBlocksv1.zip
+        ```
+
+    :   there you paste the URL from the Download Button at the Top of this Page and then click `Download`.
+
+    :   ![Extracting](https://i.imgur.com/8hGvLTR.gif)
 
 === "Video"   
     !!! video "Video Tutorial"
