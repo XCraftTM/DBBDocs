@@ -4,7 +4,7 @@ icon: material/slash-forward-box
 This Section will explain how to Create, Setup and Use Slash Commands.
 
 !!! warning "Requirements"
-    [Autocode Slash Commands Builder](https://autocode.com/tools/discord/command-builder/){:target="_blank"}  
+    [Slash Commands Builder](/slash-command-builder/){:target="_blank"}  
     [Register Slash Commands Block](https://blocks.dbb.software/Blocks/register_slash_commands.js){:target="_blank"}  
     [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"}  
     [Get Interaction Argument by Name](https://blocks.dbb.software/Blocks/get_interaction_argument_by_name.js){:target="_blank"}  

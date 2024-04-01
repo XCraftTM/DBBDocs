@@ -10,7 +10,7 @@ This Section will explain how to create and use Context Menus!
 
 The Idea is pretty straight-forward. Just register them like normal slash commands, then catch them when used, using `Interaction Event` Blocks and then you can continue like you want:  
 
-:   ![Image](https://media.discordapp.net/attachments/601468097551138851/1091723230911402024/image.png)
+:   ![Image](https://i.imgur.com/qq99T1E.png)
 
 Here is the Copyable version of the JSON Text:
 :   

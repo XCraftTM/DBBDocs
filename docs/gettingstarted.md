@@ -10,7 +10,7 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
     :   In order to allow your bot to run, you will need to install Node.js:
 
     :   ??? info "Installing on Windows"
-            - Click [here](https://nodejs.org/dist/v18.18.2/node-v18.18.2-x64.msi){:target="_blank"} to download the installer for the LTS version of Node.js.
+            - Click [here](https://nodejs.org/dist/v21.7.1/node-v21.7.1-x64.msi){:target="_blank"} to download the installer for the LTS version of Node.js.
             - Follow the installer's instructions
 
     :   ??? info "Installing on Ubuntu via CLI"
@@ -18,7 +18,7 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
             ```
             curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
             source ~/.bashrc
-            nvm install v18
+            nvm install v21
             ```
 
     ***
@@ -28,18 +28,22 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
 
     :   1. Start DBB. You will be greeted with this screen:
 
-        :   ![StartupScreen](https://i.imgur.com/5tpQr9i.png)
+        :   ![StartupScreen](https://i.imgur.com/NWOGPr4.png)
     <br>
 
     :   2, Click on Create New Project. You should now have this screen:
 
-        :   ![CreateBotScreen](https://i.imgur.com/T8gcDbn.png)
+        :   ![CreateBotScreen](https://i.imgur.com/IdkYZld.png)
     
-        :   The 'Bot Folder Name' is the name of your project and the name of the folder that will contain your bot. The Bot Folder Path is the directory on your computer where the new folder containing your bot will be created.
+        :   After these Steps, you now have a Temporary Project opened in which you can start creating your Bot.
 
-        :   In the example below, the bot will be saved in the folder "DBBProjects" in a new folder and with the project name 'MySpecialBot'
+        :   To Make sure that you progress is not lost after a restart, you can save your Project by clicking on the `Save` Button in the Top Left Corner in the `Project` Menu.
 
         :   ![CreateBotScreen](https://i.imgur.com/2h7reFa.png)<br>
+
+        :   Then, a Window Pops up in which you can go into the Folder you want to the Save the Project in and then also set a Project Folder name. After that you can click on `Save`.
+
+        :   ![SaveWindow](https://i.imgur.com/gT1Vj3Z.png)<br>
 
     ***
 
@@ -62,9 +66,9 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
     :   ![Image](https://i.imgur.com/bANjuKK.png)<br>
     <br>
 
-    :   Now you need to invite the bot to your server. Get an invite link by going to the Bot menu in the toolbar at the top of the screen and selecting Generate Invite.
+    :   Now you need to invite the bot to your server. You can get a Link by Going into the Discord Developer Portal, selecting your Application, going to OAuth2, and then selecting the `bot` and `application.commands`(Slash Commands) scope. After that you can select the permissions you want to give the bot and then copy the link.
 
-    :   ![CreateInviteInDBB](https://i.imgur.com/UUxaWD8.gif)<br>
+    :   ![CreateInviteInDiscordDevPortal](https://i.imgur.com/mXQvVTk.gif)<br>
     <br>
 
     :   Then go to your web browser and paste the invite link there. Choose which server you want to invite the bot to and click Continue.

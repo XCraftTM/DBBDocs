@@ -31,7 +31,7 @@ icon: material/music-box
     <h3> Setup Slash Command Autocomplete </h3>
 
     :   Below is an example of how to enable Auto Complete on a slash command: 
-    :   ![AutoCompleteSlashCommands](https://cdn.discordapp.com/attachments/1081509800464109638/1085955745671032994/image.png)
+    :   ![AutoCompleteSlashCommands](https://i.imgur.com/NW3nCDy.png)
 
     ***
 

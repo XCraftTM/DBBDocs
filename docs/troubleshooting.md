@@ -18,16 +18,16 @@ Issues are normal in DBB, since mostly everything is made by the community, but 
 ??? failure "Error: Used Disallowed Intents"
     ## **Error: Used Disallowed Intents**
      
-    ![Intents Error](https://media.discordapp.net/attachments/1113796723664498708/1113821079333503057/image_2023-06-01_142602019.png)
+    ![Intents Error](https://i.imgur.com/VJ7MsbQ.png)
      
     This error occurs when the users forgets to allow the bot to use all Intents on the [Discord Developer Portal](https://discord.com/developers/applications) of your Application/Bot.
      
-    ![Intents](https://media.discordapp.net/attachments/1021814101778899025/1021827845674246256/unknown.png)
+    ![Intents](https://i.imgur.com/nF2znDh.png)
 
 ??? failure "Big Error: While installing @discordjs/opus"
     ## **Big Error: While installing @discordjs/opus**
      
-    ![opus Error MSG](https://media.discordapp.net/attachments/1110207783212687492/1110207783388840090/image.png)
+    ![opus Error MSG](https://i.imgur.com/NQFxLaz.png)
      
     **Update:** @discordjs/opus isn't being used anymore, please update your Blocks if you still encounter this issue.  
 
@@ -36,7 +36,7 @@ Issues are normal in DBB, since mostly everything is made by the community, but 
 ??? failure "DBB Error: Command failed: node -v"
     ## **DBB Error: Command failed: node -v**
      
-    ![DBB Comand Failed Error](https://cdn.discordapp.com/attachments/1135865936231010426/1135865936444936222/image.png)
+    ![DBB Comand Failed Error](https://i.imgur.com/Xai6kXD.png)
      
     This error occurs when NodeJS was not detected, please make sure you installed NodeJS Correctly!
     If you already installed it and it still occurs, please restart your PC.

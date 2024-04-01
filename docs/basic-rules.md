@@ -9,11 +9,11 @@ So here are some Rules that you need to remember when you want to use DBB.
 
 ## Never Split Actions
 
-:   | Wrong Way                                                                                                           | Correct Way                                                                                                           |
-| :---------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------: |
-| ![image](https://media.discordapp.net/attachments/1171530755738964008/1171604425849180210/Bad_Bad_Action_Nodes.png) | ![image](https://media.discordapp.net/attachments/1171530755738964008/1171604426184732712/Good_Good_Action_Nodes.png) |
+:   | Wrong Way                             | Correct Way                               |
+| :---------------------------------------: | :---------------------------------------: |
+| ![image](https://i.imgur.com/wrlL3lp.png) | ![image](https://i.imgur.com/Jyx09zr.png) |
 
 ## Block Explaination
 
 :   Blocks have special properties which we visualized in this Picture:
-![Picture](https://media.discordapp.net/attachments/582167093705834507/1174418333215510528/BlocksGuide.png)
+![Picture](https://i.imgur.com/MLjHfNu.png)
