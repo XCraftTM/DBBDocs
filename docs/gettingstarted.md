@@ -39,7 +39,7 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
 
         :   To Make sure that you progress is not lost after a restart, you can save your Project by clicking on the `Save` Button in the Top Left Corner in the `Project` Menu.
 
-        :   ![CreateBotScreen](https://i.imgur.com/2h7reFa.png)<br>
+        :   ![CreateBotScreen](https://i.imgur.com/ExFnhRo.png)<br>
 
         :   Then, a Window Pops up in which you can go into the Folder you want to the Save the Project in and then also set a Project Folder name. After that you can click on `Save`.
 
