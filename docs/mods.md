@@ -24,6 +24,9 @@ Installing Mods is pretty Straight forward... Press a Button in DBB, Paste a URL
         ```
 
     :   For v1-Only Blocks you can use the following URL:
+        !!! danger "TESTING ZONE"
+            These Blocks DO NOT Include the Normal Modded Blocks, only the v1-Only Blocks. These V1 Blocks use the New Features that v1 gives us, only install these Blocks IF you want to test new Features!
+            Workspace Compatibility is NOT guaranteed!
         ```
         https://blocks.dbb.software/Blocks/v1-Blocks/!allBlocksv1.zip
         ```
