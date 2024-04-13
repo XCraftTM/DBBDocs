@@ -8,14 +8,14 @@ This Part will Explain how to install/add Workspaces from our [Discord Server](h
     In the Workspaces Channel on the DBB Discord, there you can find a txt file with the JSON Code for the Workspace.
     :   * Download the `.txt` file
         * Copy the contents of the file
-        * Open DBB, load a project and single click a workspace
-        * Click the green `Share` button
-        * Delete the json
-        * Paste and Save
+        * Open DBB, load a project, create a new Workspace and right click it
+        * Then Press the Cyan Colored Paste Button
+        * Press `Paste` on the Warning that pops up
+        * Done, you have now added a Workspace to your Project!
 
     (Note: You may need Custom Modded Blocks that should be mentioned in the Thread)
 
-    ![Image](https://i.imgur.com/B8jk6En.gif)
+    ![Image](assets/workspaceguide.gif)
 
 === "Video" 
 
