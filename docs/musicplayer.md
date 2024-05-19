@@ -34,10 +34,3 @@ icon: material/music-box
     :   ![AutoCompleteSlashCommands](https://i.imgur.com/NW3nCDy.png)
 
     ***
-
-=== "Troubleshooting"
-    A quick follow-up for discord-player v6, if you are getting weird errors like `something is not a constructor` or `version.split is not a function` or something similar, please try the following:
-
-    Remove `node_modules`, `package-lock.json` or any lockfiles you have, run `npm cache clean --force` or similar command equivalent to your package manager and then run `npm install` (or the install command of your package manager)
-
-    ***
