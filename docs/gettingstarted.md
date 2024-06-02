@@ -63,7 +63,7 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
     <br>
     Input it into DBB. Do this by selecting the Bot menu in the toolbar at the top of the screen and selecting Set Bot Token. Then paste the token and hit Enter or click OK.
 
-    :   ![Image](https://i.imgur.com/bANjuKK.png)<br>
+    :   ![Image](https://i.imgur.com/iGGK9Zq.png)<br>
     <br>
 
     :   Now you need to invite the bot to your server. You can get a Link by Going into the Discord Developer Portal, selecting your Application, going to OAuth2, and then selecting the `bot` and `application.commands`(Slash Commands) scope. After that you can select the permissions you want to give the bot and then copy the link.

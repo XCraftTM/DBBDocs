@@ -60,5 +60,3 @@ Issues are normal in DBB, since mostly everything is made by the community, but 
 ## **Final Note**
 
 :   If your problem was not listed here or you have issues fixing it you can always join our [Discord Server](https://discord.gg/PAzxTDw){:target="_blank"}
-
-:   <iframe src="https://discord.com/widget?id=582167093139734544&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
