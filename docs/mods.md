@@ -12,18 +12,18 @@ Installing Mods is pretty Straight forward... Press a Button in DBB, Paste a URL
 
 ---
 
-    ## Installing
-    :   As of v1 you can now download and install Modded Blocks in DBB.
+## Installing
+As of v1 you can now download and install Modded Blocks in DBB.
 
-    :   For that you go to the `Bot` Tab and there hover over `Import Blocks` and then click on `Download Blocks`, 
+For that you go to the `Bot` Tab and there hover over `Import Blocks` and then click on `Download Blocks`, 
 
-    :   For Modded Blocks you can use the following URL:
-        ```
-        https://blocks.dbb.software/Blocks/!allBlocks.zip
-        ```
+For Modded Blocks you can use the following URL:
+```
+https://blocks.dbb.software/Blocks/!allBlocks.zip
+```
 
-    :   there you paste the URL from the Download Button at the Top of this Page and then click `Download`.
+there you paste the URL from the Download Button at the Top of this Page and then click `Download`.
 
-    :   ![Extracting](https://i.imgur.com/8hGvLTR.gif)
+![Extracting](https://i.imgur.com/8hGvLTR.gif)
 
 
