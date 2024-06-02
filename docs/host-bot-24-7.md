@@ -28,18 +28,18 @@ Here, we will go through all these ways!
    - Navigate to the Folder you just created and Drag-and-Drop the Files into it.  
    Here is a list of things you need to Upload, leave everything else away. NOTE: Upload the Full Blocks Folder!  
    ```
-    ├── blocks/  
-    │   ├── block1.js  
-    │   ├── block2.js  
-    │   └── etc...  
-    ├── data/  
-    │   ├── data.json  
-    │   ├── INTENTS.txt  
-    │   ├── token.txt  
-    │   └── workspaces.json  
-    ├── bot.js  
-    └── package.json  
-    ```
+   ├── blocks/  
+   │   ├── block1.js  
+   │   ├── block2.js  
+   │   └── etc...  
+   ├── data/  
+   │   ├── data.json  
+   │   ├── INTENTS.txt  
+   │   ├── token.txt  
+   │   └── workspaces.json  
+   ├── bot.js  
+   └── package.json  
+   ```
 
 4. Run the Bot using the following Command:
     ```bash
