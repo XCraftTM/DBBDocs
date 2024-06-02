@@ -25,20 +25,20 @@ Here, we will go through all these ways!
 3. Upload your Bot Files into the Folder you just created.  
    - Use a (S)FTP Client of your choice to upload the Files, for example WinSCP or FileZilla work great.  
    - Create a New Connection with the IP/Domain of your Server, Username(root) and Password.
-   - Navigate to the Folder you just created and Drag-and-Drop the Files into it.
-   Here is a list of things you need to Upload, leave everything else away. NOTE: Upload the Full Blocks Folder!
+   - Navigate to the Folder you just created and Drag-and-Drop the Files into it.  
+   Here is a list of things you need to Upload, leave everything else away. NOTE: Upload the Full Blocks Folder!  
    ```
-    ├── blocks/
-    │   ├── block1.js
-    │   ├── block2.js
-    │   └── etc...
-    ├── data/
-    │   ├── data.json
-    │   ├── INTENTS.txt
-    │   ├── token.txt
-    │   └── workspaces.json
-    ├── bot.js
-    └── package.json
+    ├── blocks/  
+    │   ├── block1.js  
+    │   ├── block2.js  
+    │   └── etc...  
+    ├── data/  
+    │   ├── data.json  
+    │   ├── INTENTS.txt  
+    │   ├── token.txt  
+    │   └── workspaces.json  
+    ├── bot.js  
+    └── package.json  
     ```
 
 4. Run the Bot using the following Command:
