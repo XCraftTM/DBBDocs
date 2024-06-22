@@ -16,7 +16,7 @@ This Section will explain how to create and use Select Menus.
     :   This will create 3 Select Menu Options and each item gets added to a list that needs to be created extra.  
     The List then gets connected to the Create Menu Block.
 
-    :   ![Create a Select Menu](https://i.imgur.com/eHXH4tP.png)  
+    :   ![Create a Select Menu](https://i.imgur.com/eCnxLnU.png)  
 
     <h3> Reacting to the Select Menu </h3>
 
@@ -24,13 +24,13 @@ This Section will explain how to create and use Select Menus.
     The `Options` Output returns the Selected Option Custom ID as a List, which can be gotten using the `get item from list`.  
     Then using the `Switch (Conditional)` you can make each Selected item do something else. In this Example Replying some Text!  
 
-    :   ![React to Select Menu](https://i.imgur.com/XojLoh7.png)  
+    :   ![React to Select Menu](https://i.imgur.com/jQM1q21.png)  
 
     <h3> Testing in Discord </h3>
 
     :   After you run your Bot you should be able to see your Menu using the Command of your choice. Once you select something, the bot should return a Message or whatever you set!
 
-    :   ![Testing in Discord](https://i.imgur.com/oLH9VDw.gif)  
+    :   ![Testing in Discord](https://i.imgur.com/wHJXAzL.gif)  
 
     ***
 

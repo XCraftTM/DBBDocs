@@ -14,7 +14,7 @@ icon: material/music-box
     npm i @discord-player/extractor@latest  
     npm i mediaplex@latest  
     npm i ffmpeg-static (If on Linux, do: apt install ffmpeg)
-    npm i youtube-ext@latest  
+    npm i ytdl-core@latest  
     ```
 
     ???+ info "Newest Patch 09/15/2023"
