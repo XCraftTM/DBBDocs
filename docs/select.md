@@ -13,16 +13,17 @@ This Section will explain how to create and use Select Menus.
 
     <h3> Creating the Select Menu </h3>
 
-    :   This will create 3 Select Menu Options and each item gets added to a list that needs to be created extra.  
-    The List then gets connected to the Create Menu Block.
+    :   This will create 3 Select Menu Options and each will be connected with one Select Menu, to get Send with a Message.  
 
     :   ![Create a Select Menu](https://i.imgur.com/eCnxLnU.png)  
 
     <h3> Reacting to the Select Menu </h3>
 
     :   The Select Menu uses the Interaction Event when used.  
-    The `Options` Output returns the Selected Option Custom ID as a List, which can be gotten using the `get item from list`.  
-    Then using the `Switch (Conditional)` you can make each Selected item do something else. In this Example Replying some Text!  
+    The `Menu Option Value` has to include the Value of your single option which needs to be selected for this Action to run,  
+    and also set the CustomID of the Select Menu in the `Name / ID`.  
+
+    :   Now you can use the Individual `Interaction [Event]` Blocks to handle the Select Menu Interaction Values, you can Update the Interaction by using `Interaction Update` and connect `Interaction` and `Text` to it. Optionally you can use `Merge Texts (Advanced)` to combine the Name of the Menu Option with other Text. 
 
     :   ![React to Select Menu](https://i.imgur.com/jQM1q21.png)  
 
