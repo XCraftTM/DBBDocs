@@ -9,7 +9,7 @@ This Section has Videos that were made by the Community of DBB!
     :   Videos that are for the newest Version of DBB and Discord.JS v14!
     
     :   ???+ info "Starting with DBB v1 and Interactions"
-            ![type:video](https://www.youtube.com/watch?v=1OzYitptId8)
+            ![type:video](https://www.youtube.com/embed/1OzYitptId8)
 
 === "DBB v0.3.2 (Outdated)"
     <h2> DBB v0.3.2 Videos </h2>
