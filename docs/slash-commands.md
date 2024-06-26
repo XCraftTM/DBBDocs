@@ -56,7 +56,7 @@ There are just some changes to the normal way.
 
 ### Building a Slash Subcommand
 
-On the [Autocode Slash Commands Builder](https://autocode.com/tools/discord/command-builder/){:target="_blank"} you can first setup a main command Name and then for the Argument Type there are two options... Either you select `Subcommand Group`, which allows to setup multiple **Subcommands** within that group. Or you select `Subcommand` and you can have just a **simple subcommand** or multiple subcommands for that one command...  
+On the [Slash Commands Builder](/slash-command-builder/){:target="_blank"} you can first setup a main command Name and then for the Argument Type there are two options... Either you select `Subcommand Group`, which allows to setup multiple **Subcommands** within that group. Or you select `Subcommand` and you can have just a **simple subcommand** or multiple subcommands for that one command...  
 In this example we are going to create a **Subcommand Group** with 2 Subcommands and a **Subcommand**.
 
 ![SubcommandImg1](https://i.imgur.com/9MCqFp5.png)  
