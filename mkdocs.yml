@@ -7,11 +7,11 @@ site_description: >-
   also gives you examples and instructions on certain things!
 repo_url: https://github.com/XCraftTM/DBBDocs
 repo_name: XCraftTM/DBBDocs
-edit_uri: edit/docs/docs
+edit_uri: edit/main/docs
 
 # Copyright
 copyright: >- 
-  Copyright &copy; 2024 XCraftTM | Powered by <a href="https://aitch-systems.de/" target="_blank" style="color:#2869C9" >aitch-systems.de</a> | 
+  Copyright &copy; 2024 XCraftTM | Powered by <a href="https://aitch.systems/" target="_blank" style="color:#2869C9" >aitch.systems</a> | 
   <a style="color:#FFB016" href="#__consent">Change cookie settings</a>
 
 # Configuration
