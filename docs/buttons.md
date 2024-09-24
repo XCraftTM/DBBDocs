@@ -10,13 +10,26 @@ This Section will cover how to create a button, multiple buttons and also detect
 ---
 
 === "1. Creation"
+
+    ??? info "Slash Command Structure"
+        ```json
+        {
+            "name": "buttons", 
+            "description": "Just some buttons"
+        },
+        {
+            "name": "button", 
+            "description": "Just a button"
+        }
+        ```
+
     ## Create One Button
-    : This Construction will trigger when the `!buttons` Command was run, that will create and send the button with the [Send Message(Components)](https://blocks.dbb.software/Blocks/send_message_component.js "Download the Block!"){:target="_blank"} Block.  
-    : ![Image](https://i.imgur.com/9cTHNB8.png)
+    : This Alignment will Trigger on the Slash Command /buttons and, which will create and send the button with the [Reply to Interaction](https://blocks.dbb.software/Blocks/reply_interaction.js "Download the Block!"){:target="_blank"} Block.  
+    : ![https://i.imgur.com/DhjW9P5.png](https://i.imgur.com/DhjW9P5.png)
 
     ### Create Multiple Buttons
     : We are going to use the same command like the first one and just add more [Create Button](https://blocks.dbb.software/Blocks/create_button.js "Download the Block!"){:target="_blank"} Blocks. In Combination with [Create Button Row](https://blocks.dbb.software/Blocks/create_button_row.js "Download the Block!"){:target="_blank"}  
-    : ![https://i.imgur.com/bOXExvC.png](https://i.imgur.com/bOXExvC.png)
+    : ![https://i.imgur.com/ElMI3ys.png](https://i.imgur.com/ElMI3ys.png)
 
 === "2. Event Handling"
     ### Detect and handle a Button Press
@@ -27,12 +40,12 @@ This Section will cover how to create a button, multiple buttons and also detect
 
         :   (Ephemeral means only visible to the user)
 
-    :   ![https://i.imgur.com/9imoEyd.png](https://i.imgur.com/9imoEyd.png)  
+    :   ![https://i.imgur.com/EDOHYKa.png](https://i.imgur.com/EDOHYKa.png)  
 
 === "3. Testing"
     ### Testing Everything
     :   When you launch the bot you can now use the example command that was created, and with that the 3 Buttons should be sent. When you now click on a Button the message you reply!
-    :   ![Button Run](https://i.imgur.com/23RP7D9.png)
+    :   ![Button Run](https://i.imgur.com/IRhXr5e.gif)
 
 
 === "Editing a Button"

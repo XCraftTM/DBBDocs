@@ -24,6 +24,6 @@ title: Update 4
 **Provide Feedback**
 
 :   If you have any feedback, please do:<br>
-- [leave a comment](/blog/2024/01/03/update-4/)<br>
+- leave a comment<br>
 ***OR***<br>
 - ping @‎Beastlybear2017 in the 'general' channel of the [DBB Discord Server](https://discord.gg/PAzxTDw "Join the Discord!"){ target=_blank } :)
