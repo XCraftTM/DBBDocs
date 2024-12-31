@@ -1,5 +1,11 @@
 icon: material/form-textbox
 
+<meta content="Modals - DBB Documentation" property="og:title" />
+<meta content="A Modal is a box that appears after a Interaction where the user can fill infos." property="og:description" />
+<meta content="https://dbb.software/" property="og:url" />
+<meta content="https://raw.githubusercontent.com/XCraftTM/DBBDocs/refs/heads/main/docs/assets/favicon.png" property="og:image" />
+<meta content="#292e4a" data-react-helmet="true" name="theme-color" />
+
 # :material-form-textbox: Modals
 This Section will explain how setup a Modal, and show that to the User and also fetch what the User Inputed into the Modal.
 
@@ -17,7 +23,7 @@ This Section will explain how setup a Modal, and show that to the User and also 
 
     (Defering or Replying to the Interaction is not needed right now, but later...)  
 
-    ![Image](https://i.imgur.com/nmzSoim.png)
+    ![Image](assets/modals/creation-modal.png)
 
 ## Reacting to the Modal
 :   You just use the `Interaction [Event]` again, set it to Modal, and enter CustomID of the Modal.  
@@ -26,8 +32,8 @@ This Section will explain how setup a Modal, and show that to the User and also 
 
     After that Reply to the Interaction to tell the User that we received the Input!  
 
-    ![Image](https://i.imgur.com/bkTwT3H.png)
+    ![Image](assets/modals/handler-modal.png)
 
 ## Testing in Discord
 
-:   ![GIF](https://i.imgur.com/3Irb1q3.gif)
+:   ![GIF](assets/modals/testing-in-discord.gif)

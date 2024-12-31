@@ -1,5 +1,11 @@
 icon: material/download-box
 
+<meta content="Community Modded Blocks - DBB Documentation" property="og:title" />
+<meta content="The Community Blocks Include more functions for the usage in DBB which are not included by default and are recommended to be installed if not already done so. You can also follow this guide to update your Blocks." property="og:description" />
+<meta content="https://dbb.software/" property="og:url" />
+<meta content="https://raw.githubusercontent.com/XCraftTM/DBBDocs/refs/heads/main/docs/assets/favicon.png" property="og:image" />
+<meta content="#292e4a" data-react-helmet="true" name="theme-color" />
+
 # :material-download-box: Installing Mods
 
 Installing Mods is pretty Straight forward... Press a Button in DBB, Paste a URL, Wait.. and Done!
@@ -17,7 +23,7 @@ Installing Mods is pretty Straight forward... Press a Button in DBB, Paste a URL
 
     :   there you paste the URL from the Download Button at the Top of this Page and then click `Download`.
 
-    :   ![Extracting](https://i.imgur.com/8hGvLTR.gif)
+    :   ![Extracting](assets/mods/install-mods-in-dbb.gif)
 
 === "Manual Way"
     ## Downloading

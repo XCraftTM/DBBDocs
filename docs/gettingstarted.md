@@ -10,7 +10,7 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
     :   In order to allow your bot to run, you will need to install Node.js:
 
     :   ??? info "Installing on Windows"
-            - Click [here](https://nodejs.org/dist/v21.7.1/node-v21.7.1-x64.msi){:target="_blank"} to download the installer for the LTS version of Node.js.
+            - Click [here](https://nodejs.org/dist/v22.12.0/node-v22.12.0-x64.msi){:target="_blank"} to download the installer for the LTS version of Node.js.
             - Follow the installer's instructions
 
     :   ??? info "Installing on Ubuntu via CLI"
@@ -18,7 +18,7 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
             ```
             curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
             source ~/.bashrc
-            nvm install v21
+            nvm install v22
             ```
 
     ***
@@ -28,22 +28,22 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
 
     :   1. Start DBB. You will be greeted with this screen:
 
-        :   ![StartupScreen](https://i.imgur.com/NWOGPr4.png)
+        :   ![StartupScreen](assets/getting-started/2-creating-project/first.png)
     <br>
 
     :   2, Click on Create New Project. You should now have this screen:
 
-        :   ![CreateBotScreen](https://i.imgur.com/IdkYZld.png)
+        :   ![CreateBotScreen](assets/getting-started/2-creating-project/second.png)
     
         :   After these Steps, you now have a Temporary Project opened in which you can start creating your Bot.
 
         :   To Make sure that you progress is not lost after a restart, you can save your Project by clicking on the `Save` Button in the Top Left Corner in the `Project` Menu.
 
-        :   ![CreateBotScreen](https://i.imgur.com/ExFnhRo.png)<br>
+        :   ![CreateBotScreen](assets/getting-started/2-creating-project/third.png)<br>
 
         :   Then, a Window Pops up in which you can go into the Folder you want to the Save the Project in and then also set a Project Folder name. After that you can click on `Save`.
 
-        :   ![SaveWindow](https://i.imgur.com/gT1Vj3Z.png)<br>
+        :   ![SaveWindow](assets/getting-started/2-creating-project/fourth.png)<br>
 
     ***
 
@@ -59,31 +59,31 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
             5. Copy the Bot Token and save it for later... <br>
             (**Note: MAKE SURE TO KEEP THE TOKEN SECRET AT ALL TIMES! IF SOMEBODY GETS THE BOT TOKEN, THEY CAN ACCESS AND ABUSE YOUR BOT!**) <br>
 
-    :   ![Gif](https://i.imgur.com/8xMWmLL.gif)<br>
+    :   ![Gif](assets/getting-started/3-creating-bot/discord-dev-portal-creation.gif)<br>
     <br>
     Input it into DBB. Do this by selecting the Bot menu in the toolbar at the top of the screen and selecting Set Bot Token. Then paste the token and hit Enter or click OK.
 
-    :   ![Image](https://i.imgur.com/iGGK9Zq.png)<br>
+    :   ![Image](assets/getting-started/3-creating-bot/input-token-in-dbb.png)<br>
     <br>
 
     :   Now you need to invite the bot to your server. You can get a Link by Going into the Discord Developer Portal, selecting your Application, going to OAuth2, and then selecting the `bot` and `application.commands`(Slash Commands) scope. After that you can select the permissions you want to give the bot and then copy the link.
 
-    :   ![CreateInviteInDiscordDevPortal](https://i.imgur.com/mXQvVTk.gif)<br>
+    :   ![CreateInviteInDiscordDevPortal](assets/getting-started/3-creating-bot/invite-bot.gif)<br>
     <br>
 
     :   Then go to your web browser and paste the invite link there. Choose which server you want to invite the bot to and click Continue.
 
-    :   ![DiscordInviteStart](https://i.imgur.com/hUFHGMO.png)<br>
+    :   ![DiscordInviteStart](assets/getting-started/3-creating-bot/click-on-invite-link.png)<br>
     <br>
 
     :   On the next page, a huge list of permissions will come up. Change them as you wish. Scroll down to the bottom (there will be some information about your bot) and click Authorize.
 
-    :   ![DiscordInviteStart](https://i.imgur.com/g6W4Qvh.png)<br>
+    :   ![DiscordInviteStart](assets/getting-started/3-creating-bot/check-permissions.png)<br>
     <br>
 
     :   Finally, complete the reCAPTCHA, click Verify, and this message should display.
 
-    :   ![EndImageDiscordInvitePage](https://i.imgur.com/wubHQWG.png)
+    :   ![EndImageDiscordInvitePage](assets/getting-started/3-creating-bot/success-inviting.png)
     <br>
 
     :   That means you're all set and the bot's now in your server.
@@ -96,7 +96,7 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
         Without an event, your command will never work! Events are the only blocks that have no "Action Connection" input since they get triggered by the bot itself.
 
 :   ??? knowledge "Variable Types"
-        ![Image](https://i.imgur.com/1n2IEHy.jpeg)
+        ![Image](assets/getting-started/useful-variable-types.jpg)
 
 :   The line types must match to connect two blocks.
 

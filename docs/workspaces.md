@@ -15,7 +15,7 @@ This Part will Explain how to install/add Workspaces from our [Discord Server](h
 
     (Note: You may need Custom Modded Blocks that should be mentioned in the Thread)
 
-    ![Image](assets/workspaceguide.gif)
+    ![Image](assets/workspaces/workspaceguide.gif)
 
 === "Video" 
 

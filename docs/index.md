@@ -1,9 +1,9 @@
 icon: material/home
 
 <meta content="Discord Bot Builder Documentation" property="og:title" />
-<meta content="This Page will explain how to use Discord Bot Builder, also includes Tutorials how to use Special Functions!" property="og:description" />
+<meta content="This Page is a helpful guide on how to start with DBB and use certain important functions." property="og:description" />
 <meta content="https://dbb.software/" property="og:url" />
-<meta content="https://github.com/XCraftTM/DBBDocs/blob/main/docs/assets/favicon.png" property="og:image" />
+<meta content="https://raw.githubusercontent.com/XCraftTM/DBBDocs/refs/heads/main/docs/assets/favicon.png" property="og:image" />
 <meta content="#292e4a" data-react-helmet="true" name="theme-color" />
 
 # :material-home: Home

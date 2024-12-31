@@ -10,7 +10,7 @@ This Section will explain how to create and use Context Menus!
 
 The Idea is pretty straight-forward. Just register them like normal slash commands, then catch them when used, using `Interaction Event` Blocks and then you can continue like you want:  
 
-:   ![Image](https://i.imgur.com/qq99T1E.png)
+:   ![Image](assets/context-menu/context-menu-example-1.png)
 
 Here is the Copyable version of the JSON Text:
 :   

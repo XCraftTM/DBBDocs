@@ -12,7 +12,7 @@ Here, we will go through all these ways!
       ```bash
       curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
       source ~/.bashrc
-      nvm install v21
+      nvm install v22
       ```
     
     2. Create a new Folder for your Bot and navigate into it.
@@ -48,7 +48,7 @@ Here, we will go through all these ways!
       ```
       This will start the Bot and you should see the Bot Online in your Discord Server.
 
-    5. Optional to run the Bot 24/7, using Screen
+    5. Optional, to run the Bot 24/7, using Screen
       ```bash
       screen -S BotName node bot.js
       ```
@@ -58,7 +58,7 @@ Here, we will go through all these ways!
     <h2> Host on a Bot Hosting Service (Pterodactyl) </h2>
 
     You should find your Server on the Dashboard looking like this:  
-      ![Dashboard](https://i.imgur.com/8aES2Y6.png)
+      ![Dashboard](assets/24-7-hosting/example-pterodactyl-panel.png)
 
     Now you have two Options on how to Upload your Files:
     :   <h3> __ZIP-File Way__ </h3>
