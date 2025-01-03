@@ -1,10 +1,14 @@
+---
+hide:
+  - toc
 icon: material/slash-forward-box
+---
 
 # :material-slash-forward-box: Slash Commands
 This Section will explain how to Create, Setup and Use Slash Commands.
 
 ??? warning "Requirements"
-    [Slash Commands Builder](/slash-command-builder/){:target="_blank"}  
+    [Slash Commands Builder](slash-command-builder.md){:target="_blank"}  
     [Register Slash Commands Block](https://blocks.dbb.software/Blocks/register_slash_commands.js){:target="_blank"}  
     [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"}  
     [Get Interaction Argument by Name](https://blocks.dbb.software/Blocks/get_interaction_argument_by_name.js){:target="_blank"}  
@@ -19,7 +23,7 @@ This Section will explain how to Create, Setup and Use Slash Commands.
 
     === "1. Create Commands"
 
-        First go to the [Slash Commands Builder](/slash-command-builder/){target=_blank} and Create a command of your Choice.  
+        First go to the [Slash Commands Builder](slash-command-builder.md){target=_blank} and Create a command of your Choice.  
         In this example we will create a Kick and Timeout Command:  
         ![Image](assets/slash-commands/command-builder.png)
 
@@ -102,7 +106,7 @@ This Section will explain how to Create, Setup and Use Slash Commands.
 
     === "Building the Subcommand"
 
-        On the [Slash Commands Builder](/slash-command-builder/){:target="_blank"} you can first setup a main command Name and then for the Argument Type there are two options... Either you select `Subcommand Group`, which allows to setup multiple **Subcommands** within that group. Or you select `Subcommand` and you can have just a **simple subcommand** or multiple subcommands for that one command...  
+        On the [Slash Commands Builder](slash-command-builder.md){:target="_blank"} you can first setup a main command Name and then for the Argument Type there are two options... Either you select `Subcommand Group`, which allows to setup multiple **Subcommands** within that group. Or you select `Subcommand` and you can have just a **simple subcommand** or multiple subcommands for that one command...  
         In this example we are going to create a **Subcommand Group** with 2 Subcommands and a **Subcommand**.
 
         ![SubcommandImg1](assets/slash-commands/subcommands-in-builder-1.png)  

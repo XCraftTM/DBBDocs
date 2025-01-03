@@ -1,4 +1,8 @@
+---
+hide:
+  - toc
 icon: material/server-network
+---
 
 # :material-server-network: Host Bot 24/7
 
