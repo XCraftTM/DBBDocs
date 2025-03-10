@@ -7,94 +7,51 @@ icon: material/slash-forward-box
 # :material-slash-forward-box: Slash Commands
 This Section will explain how to Create, Setup and Use Slash Commands.
 
-??? warning "Requirements"
-    [Slash Commands Builder](slash-command-builder.md){:target="_blank"}  
-    [Register Slash Commands Block](https://blocks.dbb.software/Blocks/register_slash_commands.js){:target="_blank"}  
-    [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"}  
-    [Get Interaction Argument by Name](https://blocks.dbb.software/Blocks/get_interaction_argument_by_name.js){:target="_blank"}  
-    [Reply to Interaction](https://blocks.dbb.software/Blocks/reply_interaction.js){:target="_blank"}  
 
-
-=== "Slash Commands Startup"  
+=== "1. Slash Commands Startup"  
 
     To start using Slash Commands, you have to create a Slash Command Structure/Interface in Developer Terms.  
     This Structure tells Discord how to display the Command with which texts and which options.  
     This Step is required for Discord to know that you want to handle this command as a Interaction.
 
-    === "1. Create Commands"
+    === "1.1. Create Commands"
 
         First go to the [Slash Commands Builder](slash-command-builder.md){target=_blank} and Create a command of your Choice.  
         In this example we will create a Kick and Timeout Command:  
-        ![Image](assets/slash-commands/command-builder.png)
+        ![Image](assets/slash-commands/slash-command-builder.png)
 
-    === "2. Copy Command Code"
+    === "1.2. Copy Command Code"
 
-        After you built your Command, you click `View Code`  
+        After your created your Command on the left Side of the Screen, you click the `Copy Slash Commands (without [])` Button to Copy it in a Format that DBB can Read  
+          
         ![CMD1](assets/slash-commands/command-code.png)  
 
-        Import that Command into your Workspace using [Register Slash Commands Block](https://blocks.dbb.software/Blocks/register_slash_commands.js){:target="_blank"}.
+        [After this, Continue to the Next Step :fontawesome-solid-arrow-right:](#slash-commands-13-add-commands-to-dbb){ .md-button .md-button--primary }
 
-    === "3. Add Commands to DBB"
+    === "1.3. Add Commands to DBB"
 
         !!! danger "Important to know!"
             - You can add multiple Commands by using `,` to split the commands
 
         ![Image](assets/slash-commands/code-in-dbb.png)
 
-    === "User Installable Commands"
-
-        With the Latest Discord Update, Slash Commands can be used installable and used across DMs and Discord Servers.  
-        ^^**Important to know**^^ is that these Command Interactions usually don't include that much informations like normal Bot Slash Commands cause they happen in Scenarios where the bot is not allowed to look into.
-
-        To make these commands you need to add the following Informations to your Slash Commands Structure:
-
-        ```json
-        {
-            // ...Other Stuff...
-            "description": "Your Slash command description whatever",
-            "integration_types": [0, 1], // (1)
-            "contexts": [0, 1, 2], // (2)
-            // ...Other Stuff...
-        }
-        ```
-        { .annotate }
-
-        1.  Installation contexts where the command is available, only for globally-scoped commands. Defaults to your app's configured contexts.  
-            This can be:  
-                GUILD_INSTALL = 0   -> App is installable to servers  
-                USER_INSTALL = 1   -> App is installable to users  
-        2.  Interaction context(s) where the command can be used, only for globally-scoped commands. By default, all interaction context types included for new commands.  
-            This can be:  
-
-            GUILD = 0  
-            Interaction can be used within servers  
-
-            BOT_DM = 1  
-            Interaction can be used within DMs with the app's bot user  
-
-            PRIVATE_CHANNEL = 2  
-            Interaction can be used within Group DMs and DMs other than the app's bot user  
-
-        Click the PLUS Icon next to the code to understand what these lines mean.
-    <br>
-
-=== "Handling Interactions"
+=== "2. Handling Interactions"
 
     For each Slash Command or other Button, Modal, Select Menu or Context Menu Interaction there needs to be a so called handler.  
     This Handler catches/detects when one of those interactions was used and then you as the builder can decide what happens when it was used.  
     Thats also the reason why it is important that Buttons have a CustomID, to differenciate which specific button was used.  
 
-    === "Kick Command"
+    === "2.1. Kick Command"
 
         First we Build the Kick Command Handler. For that we use the [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"} Block. Next we use the [Get Interaction Argument by Name](https://blocks.dbb.software/Blocks/get_interaction_argument_by_name.js){:target="_blank"} to get the Member and Reason. Next we use the `Kick Member` Block and connect everything. Optionally you can use the `Merge Texts [Advanced]` Block to add the Mention of the Mmeber to a Message, you can reply to the Interaction using `Reply to Interaction`.  
         ![Command1Handler](assets/slash-commands/kick-command-example.png)
 
-    === "Timeout Command"
+    === "2.2. Timeout Command"
 
         Next we will build the Timeout Command Handler. For that we again use the [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"} Block. Next again use the [Get Interaction Argument by Name](https://blocks.dbb.software/Blocks/get_interaction_argument_by_name.js){:target="_blank"} Block to get the Member and the Time Number in Minutes. After that we use the `Timeout Member` Block and add the Rest of the Optional Stuff if needed.  
         ![Command2Handler](assets/slash-commands/timeout-command-example.png)
 
-    === "Testing the Finished Product"
+    === "2.3. Testing the Finished Product"
 
         After you start your Bot the Command(s) should be available in Discord!  
         ![StartImage](assets/slash-commands/finished-product-console.png)
@@ -188,3 +145,39 @@ This Section will explain how to Create, Setup and Use Slash Commands.
         **If False**, we make the same check, in this case there is only one subcommand in the Main command, so we Just use the same stuff we would use in a normal Slash Command.
 
         I hope this explained Subcommands a bit, it may be hard at first but you'll get into it... Ask around for help on the DBB Discord if you encounter issues.
+
+=== "User Installable Commands"
+
+    With the Latest Discord Update, Slash Commands can be used installable and used across DMs and Discord Servers.  
+    ^^**Important to know**^^ is that these Command Interactions usually don't include that much informations like normal Bot Slash Commands cause they happen in Scenarios where the bot is not allowed to look into.
+
+    To make these commands you need to add the following Informations to your Slash Commands Structure:
+
+    ```json
+    {
+        // ...Other Stuff...
+        "description": "Your Slash command description whatever",
+        "integration_types": [0, 1], // (1)
+        "contexts": [0, 1, 2], // (2)
+        // ...Other Stuff...
+    }
+    ```
+    { .annotate }
+
+    1.  Installation contexts where the command is available, only for globally-scoped commands. Defaults to your app's configured contexts.  
+        This can be:  
+            GUILD_INSTALL = 0   -> App is installable to servers  
+            USER_INSTALL = 1   -> App is installable to users  
+    2.  Interaction context(s) where the command can be used, only for globally-scoped commands. By default, all interaction context types included for new commands.  
+        This can be:  
+
+        GUILD = 0  
+        Interaction can be used within servers  
+
+        BOT_DM = 1  
+        Interaction can be used within DMs with the app's bot user  
+
+        PRIVATE_CHANNEL = 2  
+        Interaction can be used within Group DMs and DMs other than the app's bot user  
+
+    Click the PLUS Icon next to the code to understand what these lines mean.
