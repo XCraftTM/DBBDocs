@@ -2,6 +2,11 @@ icon: material/music-box
 
 # :material-music-box: Music Blocks
 
+???+ danger "This Page explains using Mods!"
+    :   This Page includes Content using Community Created Mods and may vary from your experience!
+
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+
 <h3> Play Music in Voice Channel </h3>
 
 :   Playing Music is really easy, and doesn't take a lot of Blocks... Here is a Simple Example:

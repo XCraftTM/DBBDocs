@@ -7,10 +7,10 @@ icon: material/form-select
 # :material-form-select: Context Menu
 This Section will explain how to create and use Context Menus!
 
-!!! warning "Requirements"
-    [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js){:target="_blank"}  
-    [Get Property from Object with Option](https://blocks.dbb.software/Blocks/get_property_from_object_option.js){:target="_blank"}  
-    [Reply to Interaction](https://blocks.dbb.software/Blocks/reply_interaction.js){:target="_blank"}  
+???+ danger "This Page explains using Mods!"
+    :   This Page includes Content using Community Created Mods and may vary from your experience!
+
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
 
 The Idea is pretty straight-forward. Just register them like normal slash commands, then catch them when used, using `Interaction Event` Blocks and then you can continue like you want:  
 

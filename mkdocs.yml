@@ -30,7 +30,8 @@ theme:
     - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
+    - navigation.instant
+    - navigation.instant.progress
     # - navigation.prune
     - navigation.sections
     # - navigation.tabs
@@ -183,10 +184,10 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Main:
+  - Start:
     - Getting Started: gettingstarted.md
     - Installing Mods: mods.md
-    - Adding Workspaces: workspaces.md
+    - Share/Import Workspace: workspaces.md
     - Troubleshooting: troubleshooting.md
     - Host Bot 24/7: host-bot-24-7.md
   - Basics:

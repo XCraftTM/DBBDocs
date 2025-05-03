@@ -3,6 +3,11 @@ icon: material/message-text
 # :material-message-text: Embeds
 This Section will Explain how to Create a Message embed, and also send that Embed.
 
+???+ danger "This Page explains using Mods!"
+    :   This Page includes Content using Community Created Mods and may vary from your experience!
+
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+
 ## Setup the Workspace
 :   First of all you will need to use the `Create Message Embed` Block, to create the Embed with the Text that you want to send.  
 After that you will need to use a block that sends a Message, that may be a Interaction Reply, or just a Message in a Channel.  

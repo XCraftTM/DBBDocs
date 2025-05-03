@@ -6,22 +6,19 @@ This Page includes some Basic Actions that can be Done within DBB.
 
 
 === "DM a User"
-    <h2> DM a User </h2>
+    <h2> DM a Member/User </h2>
 
-    :   !!! warning "Important Note:"
-            If a User has DMs Blocked then an Error might occur... A Fix that for will come soon™ hopefully.
+    :   Directly Connect the Member/User Object to a Channel Input of a Send Message Block!
 
-    :   There are two ways to DM a user:
-    :   * Connect the Member Object
-        :   ![DM User Directly](assets/basic-actions/dm-bot-1.png)
-
-        :   ***OR*** 
-    
-    :   * Use a `Get Member/User Info` Block to get the DM Channel and then use that...
-        :   ![DM User with second Block](assets/basic-actions/dm-bot-2.png)
+    ![DM User Directly](assets/basic-actions/dm-user.png)
 
 === "Build a Prefix Command"
     <h2> Build a Prefix Command </h2>
+
+    :   !!! danger "Prefix Commands Support Deprecated"
+            The Support for Prefix Commands was ended, you can still use the Command Event Block, but things like the Owner Filter and Custom Prefix wont work anymore!
+
+            Please use Slash Commands for better Support and easier handling!
 
     :   You probably know that mostly all bots used things called `Prefix Commands` before there were `Slash Commands`, but now there will be a tutorial how to setup a Prefix Command since many people still don't know how to do it.
 

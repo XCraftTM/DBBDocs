@@ -1,4 +1,8 @@
+---
+hide:
+  - toc
 icon: material/information-variant-box
+---
 
 # :material-information-variant-box: Getting Started
 This section will explain how to install NodeJS, setup a Bot Project within DBB as well as create and invite your Discord Bot!  
@@ -9,11 +13,11 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
 
     :   In order to allow your bot to run, you will need to install Node.js:
 
-    :   ??? info "Installing on Windows"
+    :   ???+ info "Installing on Windows"
             - Click [here](https://nodejs.org/dist/v22.12.0/node-v22.12.0-x64.msi){:target="_blank"} to download the installer for the LTS version of Node.js.
             - Follow the installer's instructions
 
-    :   ??? info "Installing on Ubuntu via CLI"
+    :   ???+ info "Installing on Ubuntu via CLI"
             - Copy these commands using the copy button in the top right hand corner of the box and paste them into your command line.
             ```
             curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
@@ -88,28 +92,39 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
 
     :   That means you're all set and the bot's now in your server.
 
-    ***
+=== "4. Extras (Recommended)"
+    <h3>Installing Mods</h3>
 
-## Other Important Stuff
+    :   Installing Mods is really important for DBB, cause all the Docs Pages rely on the Mods, since they work the best and provide the best features!  
 
-:   !!! warning "Important"
+    :   [One Click Install :fontawesome-solid-download:](dbb://download/blocks?url=https://blocks.dbb.software/download/all){ .md-button .md-button--primary }  
+
+    <h3>Set Intents</h3>
+
+    :   DBB comes with a Problem by not setting all Privileged Intents of Discord by Default, to change that you need to do the following:
+
+    :   ![EndImageDiscordInvitePage](assets/getting-started/4-extras/changing-intents.png)
+
+    :   <h4>Don't Forget to change your Intents on the [Discord Developer Portal](https://discord.com/developers/applications)</h4>
+
+    :   ![EndImageDiscordInvitePage](assets/getting-started/4-extras/disallowed-intents.png)
+
+=== "Other Important Stuff"
+    !!! warning "Important"
         Without an event, your command will never work! Events are the only blocks that have no "Action Connection" input since they get triggered by the bot itself.
 
-:   ??? knowledge "Variable Types"
+    ??? knowledge "Variable Types"
         ![Image](assets/getting-started/useful-variable-types.jpg)
 
-:   The line types must match to connect two blocks.
+    The line types must match to connect two blocks.
 
-:   On the Output side of the block, there can be as many connections to one point as you like (except on the action type).
+    On the Output side of the block, there can be as many connections to one point as you like (except on the action type).
 
-:   On the Input side of the block, there can always only be one connection per point.
+    On the Input side of the block, there can always only be one connection per point.
 
-:   ??? knowledge "Good to know"
+    ??? knowledge "Good to know"
         Server = Guild
 
         User ≠ Member
 
         A member is a user that is relevant to the guild only. You can execute actions to do with a specific server with a member.
-
-## Your turn!
-:   Use these Examples, Tutorials and Infos to create your own Bot. Maybe you can even try to code your own Blocks and learn Javascript!

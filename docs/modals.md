@@ -9,6 +9,11 @@ icon: material/form-textbox
 # :material-form-textbox: Modals
 This Section will explain how setup a Modal, and show that to the User and also fetch what the User Inputed into the Modal.
 
+???+ danger "This Page explains using Mods!"
+    :   This Page includes Content using Community Created Mods and may vary from your experience!
+
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+
 ## Setup Modal
 :   !!! warning "Important"
         * To be able to receive a Modal, a normal Prefix Command is not working, you will need some kind of Interaction. 

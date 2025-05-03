@@ -4,6 +4,10 @@ icon: material/form-dropdown
 
 This Section will explain how to create and use Select Menus.
 
+???+ danger "This Page explains using Mods!"
+    :   This Page includes Content using Community Created Mods and may vary from your experience!
+
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
 
 === "String Select Menu"
     <h2> String Select Menu </h2>

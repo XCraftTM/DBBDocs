@@ -3,6 +3,11 @@ icon: material/gesture-tap-button
 # :material-gesture-tap-button: Buttons
 This Section will cover how to create a button, multiple buttons and also detect and handle button inputs.
 
+???+ danger "This Page explains using Mods!"
+    :   This Page includes Content using Community Created Mods and may vary from your experience!
+
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+
 !!! warning "Important"
     - Each Button needs a Custom ID to detect when it was Pressed
     - You can get a Emoji on Windows using ++windows+period++
