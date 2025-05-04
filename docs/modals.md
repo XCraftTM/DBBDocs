@@ -12,7 +12,7 @@ This Section will explain how setup a Modal, and show that to the User and also 
 ???+ danger "This Page explains using Mods!"
     :   This Page includes Content using Community Created Mods and may vary from your experience!
 
-    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](mods.md){ .md-button .md-button--primary }
 
 ## Setup Modal
 :   !!! warning "Important"

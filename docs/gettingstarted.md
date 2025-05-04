@@ -75,20 +75,11 @@ This section will explain how to install NodeJS, setup a Bot Project within DBB 
     :   ![CreateInviteInDiscordDevPortal](assets/getting-started/3-creating-bot/invite-bot.gif)<br>
     <br>
 
-    :   Then go to your web browser and paste the invite link there. Choose which server you want to invite the bot to and click Continue.
-
-    :   ![DiscordInviteStart](assets/getting-started/3-creating-bot/click-on-invite-link.png)<br>
-    <br>
-
-    :   On the next page, a huge list of permissions will come up. Change them as you wish. Scroll down to the bottom (there will be some information about your bot) and click Authorize.
-
-    :   ![DiscordInviteStart](assets/getting-started/3-creating-bot/check-permissions.png)<br>
-    <br>
-
-    :   Finally, complete the reCAPTCHA, click Verify, and this message should display.
-
-    :   ![EndImageDiscordInvitePage](assets/getting-started/3-creating-bot/success-inviting.png)
-    <br>
+    | Image | Description |
+    |-------|-------------|
+    | ![Invite Link](assets/getting-started/3-creating-bot/click-on-invite-link.png) | Open the invite link and select your server. |
+    | ![Set Permissions](assets/getting-started/3-creating-bot/check-permissions.png) | Adjust the bot's permissions and click Authorize. |
+    | ![Success Message](assets/getting-started/3-creating-bot/success-inviting.png) | Complete reCAPTCHA and verify the invitation. |
 
     :   That means you're all set and the bot's now in your server.
 

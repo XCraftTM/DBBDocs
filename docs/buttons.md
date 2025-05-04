@@ -6,7 +6,7 @@ This Section will cover how to create a button, multiple buttons and also detect
 ???+ danger "This Page explains using Mods!"
     :   This Page includes Content using Community Created Mods and may vary from your experience!
 
-    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](mods.md){ .md-button .md-button--primary }
 
 !!! warning "Important"
     - Each Button needs a Custom ID to detect when it was Pressed
@@ -29,19 +29,19 @@ This Section will cover how to create a button, multiple buttons and also detect
         ```
 
     ## Create One Button
-    : This Alignment will Trigger on the Slash Command /buttons and, which will create and send the button with the [Reply to Interaction](https://blocks.dbb.software/Blocks/reply_interaction.js "Download the Block!"){:target="_blank"} Block.  
+    : This Alignment will Trigger on the Slash Command /buttons and, which will create and send the button with the `Send Message/Interaction (Multi)` Block.  
     : ![Single Button Creation](assets/buttons/one-button-handler-in-dbb.png)
 
     ### Create Multiple Buttons
-    : We are going to use the same command like the first one and just add more [Create Button](https://blocks.dbb.software/Blocks/create_button.js "Download the Block!"){:target="_blank"} Blocks. In Combination with [Create Button Row](https://blocks.dbb.software/Blocks/create_button_row.js "Download the Block!"){:target="_blank"}  
+    : We are going to use the same command like the first one and just add more `Button (Component)` Blocks. In Combination with `Create Action Row`
     : ![Multiple Button Creation](assets/buttons/multiple-buttons-in-dbb.png)
 
 === "2. Event Handling"
     ### Detect and handle a Button Press
 
-    :   You can use the [Interaction Event](https://blocks.dbb.software/Blocks/interaction_event.js "Download the Block!"){:target="_blank"} to detect a Button Press using the Custom ID. Also to get the Current Time and Date you use the `Create Date` Block and using the `Format Date` Block you can get the Date in a Text Type.
+    :   You can use the `Interaction [Event]` to detect a Button Press using the Custom ID. Also to get the Current Time and Date you use the `Create Date` Block and using the `Format Date` Block you can get the Date in a Text Type.
     
-    :   To now send a message back to the User that used the Button, you can use the [Reply to Interaction](https://blocks.dbb.software/Blocks/reply_interaction.js "Download the Block!"){:target="_blank"} Block.  
+    :   To now send a message back to the User that used the Button, you can use the `Send Message/Interaction (Multi)` Block.  
 
         :   (Ephemeral means only visible to the user)
 

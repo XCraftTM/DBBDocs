@@ -6,7 +6,7 @@ This Section will Explain how to Create a Message embed, and also send that Embe
 ???+ danger "This Page explains using Mods!"
     :   This Page includes Content using Community Created Mods and may vary from your experience!
 
-    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](mods.md){ .md-button .md-button--primary }
 
 ## Setup the Workspace
 :   First of all you will need to use the `Create Message Embed` Block, to create the Embed with the Text that you want to send.  

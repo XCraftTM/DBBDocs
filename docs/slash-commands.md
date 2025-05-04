@@ -10,7 +10,7 @@ This Section will explain how to Create, Setup and Use Slash Commands.
 ???+ danger "This Page explains using Mods!"
     :   This Page includes Content using Community Created Mods and may vary from your experience!
 
-    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](/mods){ .md-button .md-button--primary }
+    :   [Go to Documentation page for Mods :fontawesome-solid-arrow-right:](mods.md){ .md-button .md-button--primary }
 
 === "1. Slash Commands Startup"  
 
