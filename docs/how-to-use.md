@@ -2,6 +2,12 @@
 icon: material/domain
 ---
 
+<meta content="How to use DBB - DBB Documentation" property="og:title" />
+<meta content="Ever wondered how DBB Works? Learn the Basics about the Usage here!" property="og:description" />
+<meta content="https://dbb.software/" property="og:url" />
+<meta content="https://raw.githubusercontent.com/XCraftTM/DBBDocs/refs/heads/main/docs/assets/favicon.png" property="og:image" />
+<meta content="#292e4a" data-react-helmet="true" name="theme-color" />
+
 # :material-domain: How to use DBB
 
 ## Create a Project
