@@ -191,6 +191,7 @@ nav:
     - Troubleshooting: troubleshooting.md
     - Host Bot 24/7: host-bot-24-7.md
   - Basics:
+    - How to use DBB: how-to-use.md
     - Basic Actions: basic-actions.md
     - Basic Rules: basic-rules.md
   - Tutorials: 
