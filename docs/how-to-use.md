@@ -85,3 +85,26 @@ There is quite a few way to handle Blocks in DBB, here are some!
     You can use ++ctrl+c++ and ++ctrl+v++ to Copy and Paste the Marked Blocks.  
 
 :   ![Image](assets/how-to-use/copy-paste.gif){ width="800" }
+
+---
+
+## Organizing Workspaces
+
+:   ### Create and Manage Categories
+
+:   You can create Categories in Your Workspace List to organize the way they are ordered.  
+
+:   ![Image](assets/how-to-use/create-manage-categories.gif){ width="800" }
+
+:   ### Create Notes
+
+:   You can create Note Blocks that are behind your Blocks to oranize specific collections/parts of your Workspace.  
+    These can be found in the Block List Menu when you **Right Click** your Workspace, and then press the green `Create Note` Button.  
+
+:   ![Image](assets/how-to-use/create-notes.gif){ width="800" }
+
+:   ### Edit Notes
+
+:   You can change their **Color**, **Size**, **Name** and **Description** using the Right Toolbar.
+
+:   ![Image](assets/how-to-use/edit-notes.gif){ width="800" }
