@@ -17,7 +17,7 @@ This Section will explain how to create and use Select Menus.
 
     <h3> Creating the Select Menu </h3>
 
-    :   This will create 3 Select Menu Options and each will be connected with one Select Menu, to get Send with a Message.  
+    :   This will create 2 Select Menu Options and each will be connected with one Select Menu, to get Send with a Message.  
 
     :   ![Create a Select Menu](assets/select-menu/string-select/creation.png)  
 

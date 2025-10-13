@@ -20,15 +20,29 @@ This Section will explain how setup a Modal, and show that to the User and also 
         
         :   This can be a Slash command, Button or Select Menu.  
 
-    After the `Interaction [Event]` Block we will use the `Create Modal Input Field` Block to create Text Inputs for the Modal, you can customize these to your liking.  
+    !!! danger "Modals have Changed"
+        Modals have changed a LOT, they now require the usage of the Components V2 which can be a bit overwhelming but allow for more features.
+        The Guide will go over each Combination that you can do for Modals to explain it as well as possible.
 
-    After that, add each Input Field Object to a List that you create using the `Create List` Block and add them using the `Add Item to List` Block.  
+    ### Adding Normal Text Inputs to Modals
+    :   To add Text Inputs to Modals use need to use a `Label (Component)` in combination with `Modal Text Input (Component)`,
 
-    After all that you use the `Create and Show Modal` Block to finish the Modal and show it to the User.  
+    :   ![Image](assets/modals/text-input.png)
 
-    (Defering or Replying to the Interaction is not needed right now, but later...)  
+    ### Adding Text Displays
+    :   Text Displays supports any Discord Message Formatting including Headers or other formatting, even multi lines.
 
-    ![Image](assets/modals/creation-modal.png)
+    :   ![Image](assets/modals/text-displays.png)
+
+    ### Adding Select Menus
+    :   Select Menus are the one New Thing for Modals, they can be any Type of Select Menu.
+
+    :   ![Image](assets/modals/select-menu.png)
+
+    ### Everything Together in Discord
+    :   If you combine all three Types you can get something similar to this!
+
+    :   ![Image](assets/modals/modal-in-discord.png)
 
 ## Reacting to the Modal
 :   You just use the `Interaction [Event]` again, set it to Modal, and enter CustomID of the Modal.  
@@ -37,7 +51,7 @@ This Section will explain how setup a Modal, and show that to the User and also 
 
     After that Reply to the Interaction to tell the User that we received the Input!  
 
-    ![Image](assets/modals/handler-modal.png)
+    ![Image](assets/modals/handle-modal.png)
 
 ## Testing in Discord
 
